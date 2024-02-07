@@ -1,8 +1,9 @@
 import Collections from "../../components/Collections";
+import "./style.css";
 
 const Home = () => {
   return (
-    <div>
+    <div className="home">
       <Collections />
     </div>
   );
